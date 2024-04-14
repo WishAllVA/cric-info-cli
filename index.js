@@ -32,7 +32,7 @@ if (options.greet) {
 			})
 			console.table(displayData)
 		})
-		.catch(error => console.log(err))
+		.catch(error => console.log(error))
 
 } else if (options.searchPlayer) {
 	axios
